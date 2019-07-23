@@ -1,10 +1,24 @@
 {% extends "layout.html" %}
+
 {% block content %}
-  </main>
+  <main class="hero-section">
+    <div class="container">
+      
       <div class="section-content">
-      	<h2>{{prediction}}</h2>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="/add-user">
+
+          Add New User
+
+        </a>
       </div>
+      <div class="section-content">
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="/read-user">
+
+          View Users
+
+        </a>
+      </div>
+
+    </div>
   </main>
-
-
 {% endblock %}
